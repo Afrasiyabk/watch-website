@@ -1,0 +1,137 @@
+/* tailwind css url */
+@import "tailwindcss";
+/*  global css */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background: black !important;
+  color:#ffffff !important;
+}
+
+.lg-p {
+  padding:20px 50px;
+}
+
+.md-p {
+  padding:20px 30px;
+}
+
+.sm-p {
+  padding:20px 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#ffffff !important;
+}
+
+p {
+  color: gray !important;
+}
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+  font-weight:600;
+}
+
+/* Navbar css */
+.navbar{
+  width:100%;
+  color:white;
+  padding:10px 0;
+}
+
+.nav-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 100%;
+  margin:auto;
+}
+
+
+
+
+
+.nav-icons{
+  display:flex;
+  gap:15px;
+}
+
+/* hero section css */
+.hero{
+  height:80vh;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+}
+
+
+
+
+.hero-title{
+   font-family: "Archivo Black", sans-serif !important;
+}
+
+.hero-text{
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+
+/*  button css */
+.btn-primary{
+  background:orange;
+  color:white;
+  border:none;
+  padding:12px 25px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.btn-primary:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-out;
+
+}
+
+.btn-secondary{
+  display: flex;
+  gap: 8px;
+  align-items:center ;
+  background:#070c17;
+  color:white;
+  border:solid 1px white;
+  padding:12px 25px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.btn-secondary:hover{
+  transform: scale(0.9);
+  transition: all 0.5s ease-out;
+}
+
+.btn-outline{
+  border:2px solid #16a34a;
+  color:#16a34a;
+  padding:10px 22px;
+  border-radius:6px;
+  background:transparent;
+}
+
